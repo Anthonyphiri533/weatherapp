@@ -1,0 +1,51 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: sans-serif, 'Open sans';
+    background: #223;
+    background-image: url('images/bg.jpg');
+}
+
+.card {
+    background: #eaeaea;
+    padding: 2em;
+    border-radius: 20px;
+    width: 100%;
+    margin: 1em;
+    max-width: 400px;
+}
+
+.search-bar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button{
+    margin: 0.5em;
+    border-radius: 50%;
+    height: 46px;
+    width: 46px;
+    outline: none;  
+}
+
+button:hover{
+    background:#ccce;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+
+
+input.search-bar{
+    border: none;
+    outline: none;
+    padding: 0.5em;
+    border-radius: 25px;
+    background-color: #7c7c7c2b; 
+    color: white;
+    font-family: inherit;
+    font-size: 110%;   
+}
